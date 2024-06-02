@@ -7,4 +7,4 @@ This solution contains the following two Python files.
 
 To run the file.
 
-Open UnitTestFile.py in IDLE or VSCODE, which has an integrated Python environment, and press F5 or Go to File Menu -> Run -> Run Module.
+Open UnitTestFile.py in Python Editor (IDLE) or VSCODE, which has an integrated Python environment, and press F5 or Go to File Menu -> Run -> Run Module.
