@@ -1,6 +1,7 @@
 Used Default Python Editor (IDLE) for the solution
 
 Part 1: Algoritmic Challenge
+
 Folder: RocketLab/Question1
 
 This solution contains the following two Python files.
@@ -14,6 +15,7 @@ Open UnitTestFile.py in Python Editor (IDLE) or VSCODE, which has an integrated 
 
 
 Part 2: Design Challenge
+
 Folder: RocketLab/Question2
 
 This Solution contains three files.
