@@ -1,6 +1,11 @@
 #using Time module for logging the time
 import time
 
+'''
+we can perform a binary search over the entire matrix.
+treating matrix as a one-dimensional sorted list and use index manipulation to access the two-dimensional matrix.
+'''
+
 def search_in_matrix(matrix, target):
 
     #time before algorithm execution
@@ -28,6 +33,7 @@ def search_in_matrix(matrix, target):
         # if middle value is the targeted value, then returning True and calculating total execution time.
         if mid_value == target:
             end_time = time.time()
+            print(end_time)
             execution_time = (end_time - start_time) * 1e6
             #print(execution_time)
             print(f"Total Execution Time: {execution_time: .2f} Microseconds")
@@ -42,6 +48,7 @@ def search_in_matrix(matrix, target):
             right = mid - 1
     
     end_time = time.time()
+    print(end_time)
     execution_time = (end_time - start_time) * 1e6
     print(f"Total Execution Time: {execution_time: .2f} Microseconds")
     return False
